@@ -1,18 +1,20 @@
 'use client'
 import { Button } from "antd"
 import { useState } from "react"
+import Link from "next/link";
+import {NoneButton} from "@/components/Core/Button";
 
 export default function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false)
 
     return (
         <nav className="fixed w-full z-50 px-8 py-4 flex items-center justify-between bg-black/60 backdrop-blur-md border-b border-white/10">
-            <a
+            <Link
                 href="/"
                 className="relative flex items-center w-12 h-12 rounded-xl bg-gradient-radial from-[#1C1C1C] to-black shadow-[0_1px_10px_rgba(198,54,255,0.7),0_1px_6px_rgba(140,69,255,0.6)]"
             >
                 <div className="absolute inset-0 rounded-xl bg-gradient-to-b from-[#8C45FF] to-[#C145FF] opacity-70"></div>
-            </a>
+            </Link>
 
             {/* Desktop Menu */}
             <ul className="hidden md:flex space-x-8 rounded font-medium">
@@ -24,10 +26,7 @@ export default function Navbar() {
             </ul>
 
             {/* Action Button */}
-            <Button                 size="large"
-                                    className="bg-[#9856ff66]! text-white! border-none! ">
-                Get Started
-            </Button>
+           <NoneButton text={'Get Started'} />
 
             {/* Mobile Hamburger */}
             <div
