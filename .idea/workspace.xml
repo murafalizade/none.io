@@ -5,31 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f3d26c9-ac09-4dbf-993f-0411511fb7c0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/chat/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/chat/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Home/Faq/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Home/Pricing/PricingBox.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Chat/ChatHistory/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/about/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/signin/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/signin/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/signup/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/signup/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/About/AboutSectionOne.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/About/AboutSectionOne.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/About/AboutSectionTwo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/About/AboutSectionTwo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Brands/brandsData.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Brands/brandsData.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Brands/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Brands/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Core/Button.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Features/SingleFeature.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Features/featuresData.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Features/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Hero/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Hero/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pricing/OfferList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Pricing/OfferList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pricing/PricingBox.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pricing/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Pricing/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Testimonials/SingleTestimonial.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Testimonials/SingleTestimonial.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Testimonials/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Testimonials/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/chat/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/chat/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +97,7 @@
       <updated>1755715049242</updated>
       <workItem from="1755715050764" duration="104000" />
       <workItem from="1755770076878" duration="11449000" />
-      <workItem from="1755842418378" duration="6038000" />
+      <workItem from="1755842418378" duration="12048000" />
     </task>
     <servers />
   </component>
