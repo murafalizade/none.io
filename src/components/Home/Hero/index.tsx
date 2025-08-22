@@ -12,19 +12,16 @@ const Hero = () => {
             <h1 className="mb-5 text-3xl font-bold leading-tight text-white sm:text-4xl md:text-5xl">
               AI-Powered Sound Effects & WAV Workspace
             </h1>
-            <p className="mb-12 text-base leading-relaxed text-body-color-dark sm:text-lg md:text-xl">
-              Generate, edit, and customize sound effects with ease — powered by
-              AI and designed for musicians, producers, and creators.
-            </p>
             <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
               <div style={{border: "1px solid #9856ff66", padding: "8px", borderRadius: "10px"}}>
-                <Button size="large" className="bg-white! text-dark! border-none! w-[130px] h-[20px] ">
+                <Button type={'link'} href={'/signup'} size="large" className="bg-white! text-dark! border-none! w-[130px] h-[20px] ">
                   Try now
                 </Button>
               </div>
             </div>
           </div>
-        </div>        <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
+        </div>
+        <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
           <svg
             width="450"
             height="556"

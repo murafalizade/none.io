@@ -84,9 +84,7 @@ const SignupPage = () => {
           </div>
         </div>
 
-        {/* Background SVG */}
         <div className="absolute top-0 left-0 z-[-1]">
-          {/* Keep the existing SVG, consider adding dark gradient fills */}
         </div>
       </section>
   );

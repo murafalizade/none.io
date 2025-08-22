@@ -130,3 +130,29 @@
     @apply inline-flex;
   }
 }
+.custom-collapse .ant-collapse-item {
+  border: 2px solid rgba(152, 86, 255, 0.4) !important;
+  border-radius: 12px !important;
+  margin-bottom: 1rem;
+  background-color: black !important;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-collapse .ant-collapse-content{
+  background-color: transparent!important;
+}
+
+.custom-collapse .ant-collapse-item:hover {
+  border-color: #9856ff !important;
+  box-shadow: 0 0 10px #9856ff66;
+}
+
+.custom-collapse .ant-collapse-header {
+  font-size: 1.25rem !important; /* bigger question text */
+  color: white !important;
+}
+
+.custom-collapse .ant-collapse-expand-icon {
+  color: white !important; /* make icon white */
+  font-size: 1.5rem !important;
+}

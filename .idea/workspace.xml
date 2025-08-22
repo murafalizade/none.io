@@ -1,15 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f3d26c9-ac09-4dbf-993f-0411511fb7c0" name="Changes" comment="" />
+    <list default="true" id="0f3d26c9-ac09-4dbf-993f-0411511fb7c0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/app/chat/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/chat/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Home/Faq/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Home/Pricing/PricingBox.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/about/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/signin/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/signin/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/signup/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/signup/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/About/AboutSectionOne.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/About/AboutSectionOne.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/About/AboutSectionTwo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/About/AboutSectionTwo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Brands/brandsData.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Brands/brandsData.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Brands/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Brands/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Core/Button.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Features/SingleFeature.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Features/featuresData.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Features/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Hero/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Hero/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pricing/OfferList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Pricing/OfferList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pricing/PricingBox.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pricing/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Pricing/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Testimonials/SingleTestimonial.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Testimonials/SingleTestimonial.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Testimonials/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Testimonials/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="31YxwvWdTGexs5hseAvBd1y1KHF" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -17,11 +56,20 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/muradeliyev/Desktop/Web Development/none.io",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "js.debugger.nextJs.config.created.client": "true",
+    "js.debugger.nextJs.config.created.server": "true",
+    "last_opened_file_path": "C:/Users/murad.eliyev/Desktop/none.io",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "npm.Next.js: server-side.executor": "Run",
+    "ts.external.directory.path": "C:\\Users\\murad.eliyev\\Desktop\\none.io\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -33,10 +81,31 @@
       </map>
     </option>
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\murad.eliyev\Desktop\none.io\src\components\Home" />
+      <recent name="C:\Users\murad.eliyev\Desktop\none.io\src\components\Faq" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.Next.js: server-side">
+    <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
+      <method v="2" />
+    </configuration>
+    <configuration name="Next.js: server-side" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.25659.40" />
+        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-WS-251.26094.131" />
       </set>
     </attachedChunks>
   </component>
@@ -49,6 +118,8 @@
       <option name="presentableId" value="Default" />
       <updated>1755715049242</updated>
       <workItem from="1755715050764" duration="104000" />
+      <workItem from="1755770076878" duration="11449000" />
+      <workItem from="1755842418378" duration="6038000" />
     </task>
     <servers />
   </component>

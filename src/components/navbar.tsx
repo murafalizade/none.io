@@ -2,10 +2,11 @@
 import { Button } from "antd"
 import { useState } from "react"
 import Link from "next/link";
-import {NoneButton} from "@/components/Core/Button";
+import { useRouter } from 'next/navigation';
 
 export default function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false)
+    const router = useRouter();
 
     return (
         <nav className="fixed w-full z-50 px-8 py-4 flex items-center justify-between bg-black/60 backdrop-blur-md border-b border-white/10">
@@ -18,7 +19,7 @@ export default function Navbar() {
 
             {/* Desktop Menu */}
             <ul className="hidden md:flex space-x-8 rounded font-medium">
-                {["Demo", "Partners", "Advantages", "Pricing"].map((item, i) => (
+                {["Home", "Partners", "About", "Pricing", "FAQ"].map((item, i) => (
                     <li key={i} className="hover:text-[#D438FF] transition-colors">
                         <a className={'text-[#ffffffb3]!'} href={`#${item.toLowerCase()}`}>{item}</a>
                     </li>
@@ -26,8 +27,18 @@ export default function Navbar() {
             </ul>
 
             {/* Action Button */}
-           <NoneButton text={'Get Started'} />
-
+            <Button
+                onClick={() => router.push('/signup')}
+                size="large"
+                className="!text-white !border-none w-[130px] h-[20px] transition-all duration-300
+             bg-[#9856ff66]! hover:bg-[#9856ff]"
+                style={{
+                    boxShadow: "inset 0 0 8px #9856ff, 0 0 6px #9856ff66",
+                    borderRadius: "10px",
+                }}
+            >
+                Get Started
+            </Button>
             {/* Mobile Hamburger */}
             <div
                 className="md:hidden cursor-pointer"

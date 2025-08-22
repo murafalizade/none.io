@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import SectionTitle from "../Common/SectionTitle";
+import SectionTitle from "../../Common/SectionTitle";
 import OfferList from "./OfferList";
 import PricingBox from "./PricingBox";
 
@@ -17,7 +17,6 @@ const Pricing = () => {
               width="665px"
           />
 
-          {/* Toggle */}
           <div className="w-full mb-12 flex justify-center">
           <span
               onClick={() => setIsMonthly(true)}
@@ -49,7 +48,6 @@ const Pricing = () => {
           </span>
           </div>
 
-          {/* Pricing cards */}
           <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
             <PricingBox
                 packageName="Lite"
@@ -93,11 +91,6 @@ const Pricing = () => {
               <OfferList text="Free Lifetime Updates" status="active" />
             </PricingBox>
           </div>
-        </div>
-
-        {/* Background SVG */}
-        <div className="absolute bottom-0 left-0 z-[-1]">
-          {/* Keep existing SVG */}
         </div>
       </section>
   );
