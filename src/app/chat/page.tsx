@@ -39,7 +39,7 @@ export default function ChatPage() {
                                 autoSize={{ minRows: 7, maxRows: 12 }}
                                 value={message}
                                 onChange={(e) => setMessage(e.target.value)}
-                                className="bg-transparent! text-gray-200! border-none! placeholder-gray-500! focus:shadow-none focus:outline-none"
+                                className="bg-transparent! text-gray-200! border-none! placeholder-gray-500! focus:shadow-none focus:outline-none!"
                             />
 
                             {/* Actions row */}

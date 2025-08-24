@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f3d26c9-ac09-4dbf-993f-0411511fb7c0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Chat/ChatHistory/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/c/[id]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Chat/ChatPanel/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/chat/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/chat/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Chat/ChatHistory/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Chat/ChatHistory/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +26,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;murafalizade&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/murafalizade/none.io.git&quot;,
+    &quot;accountId&quot;: &quot;02351282-2d04-4f24-83cc-63af0456ce94&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -32,35 +46,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "js.debugger.nextJs.config.created.client": "true",
-    "js.debugger.nextJs.config.created.server": "true",
-    "last_opened_file_path": "C:/Users/murad.eliyev/Desktop/none.io",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.Next.js: server-side.executor": "Run",
-    "ts.external.directory.path": "C:\\Users\\murad.eliyev\\Desktop\\none.io\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
+    &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/murad.eliyev/Desktop/none.io&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.Next.js: server-side.executor&quot;: &quot;Run&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/muradeliyev/Desktop/Web Development/none.io/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
         <entry key="com.intellij.reactbuddy.reactComponents" value="false" />
         <entry key="com.intellij.reactbuddy.reactInspector" value="false" />
+        <entry key="com.intellij.reactbuddy.storybook" value="false" />
       </map>
     </option>
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/c/[id]" />
       <recent name="C:\Users\murad.eliyev\Desktop\none.io\src\components\Home" />
       <recent name="C:\Users\murad.eliyev\Desktop\none.io\src\components\Faq" />
     </key>
@@ -83,7 +99,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-WS-251.26094.131" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.25659.40" />
       </set>
     </attachedChunks>
   </component>
@@ -98,6 +114,7 @@
       <workItem from="1755715050764" duration="104000" />
       <workItem from="1755770076878" duration="11449000" />
       <workItem from="1755842418378" duration="12048000" />
+      <workItem from="1755894861227" duration="3811000" />
     </task>
     <servers />
   </component>
